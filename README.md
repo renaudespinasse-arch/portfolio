@@ -8,3 +8,7 @@ Ici, je vais publier tous mes projets réalisés durant mon apprentissage
 - Application Todo en Javascript
 - API Node.js
 - Application complète Full Stack
+### Nouveaux objectifs
+- Apprendre Git pas à pas
+- Créer mon portfolio full stack
+- Déployer mes projets en ligne
