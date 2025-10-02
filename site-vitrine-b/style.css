@@ -60,10 +60,25 @@ header a {
 }
 
 .card {
-  background: #c555b6;
   padding: 20px;
   border-radius: 10px;
   flex: 1;
+}
+
+.card1 {
+  background: #0ea5e9;
+}
+
+.card2 {
+  background: #8b5cf6;
+}
+
+.card3 {
+  background: #b90ee4;
+}
+
+.card4 {
+  background: #dd0896;
 }
 
 /* 4. Contact */
