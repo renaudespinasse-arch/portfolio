@@ -7,10 +7,42 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="card">
-    <h1>Test CSS</h1>
-    <p>Si tu vois ce message dans ton navigateur, ton premier affichage est ok.</p>
-    <a class="btn" href="#" onclick="alert('Bravo !'); return false;">Tester un clic</a>
-  </div>
+  
+  <header>
+    <h1 class="logo">Mon Entreprise</h1>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="accueil" class="hero">
+    <h2>Bienvenue sur mon site vitrine</h2>
+    <p>Nous aidons nos clients à réussir en ligne 🚀</p>
+    <a href="#contact" class="btn">Nous contacter</a>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Nos services</h2>
+    <div class="cards">
+      <div class="card">🌐 Création de sites web</div>
+      <div class="card">📱 Applications mobiles</div>
+      <div class="card">📈 Marketing digital</div>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact">
+    <h2>Contactez-nous</h2>
+    <p>Email : <a href="mailto:contact@monsite.com">contact@monsite.com</a></p>
+    <p>Téléphone : 01 23 45 67 89</p>
+  </section>
+  <footer>
+    <p>© 2025 Mon Entreprise - Tous droits réservés</p>
+  </footer>
+
 </body>
 </html>
+    
