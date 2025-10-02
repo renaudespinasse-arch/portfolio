@@ -64,7 +64,7 @@ header a {
   border-radius: 10px;
   flex: 1;
   text-align: center;
-  color: #fff;
+  color: #fff !important;
   font-weight: bold;
 }
 
