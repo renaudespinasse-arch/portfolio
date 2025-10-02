@@ -65,23 +65,13 @@ header a {
   flex: 1;
   text-align: center;
   color: #fff;
+  font-weight: bold;
 }
 
-.card1 {
-  background: #0ea5e9;
-}
-
-.card2 {
-  background: #8b5cf6;
-}
-
-.card3 {
-  background: #b90ee4;
-}
-
-.card4 {
-  background: #dd0896;
-}
+.card1 { background: #0ea5e9; }
+.card2 { background: #8b5cf6; }
+.card3 { background: #b90ee4; }
+.card4 { background: #dd0896; }
 
 /* 4. Contact */
 .contact {
