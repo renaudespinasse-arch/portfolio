@@ -59,7 +59,7 @@ header a {
   margin-top: 20px;
 }
 
-.card {
+.cards .card {
   padding: 20px;
   border-radius: 10px;
   flex: 1;
