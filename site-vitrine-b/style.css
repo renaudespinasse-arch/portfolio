@@ -63,6 +63,8 @@ header a {
   padding: 20px;
   border-radius: 10px;
   flex: 1;
+  text-align: center;
+  color: #fff;
 }
 
 .card1 {
