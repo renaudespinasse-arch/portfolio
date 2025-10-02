@@ -7,7 +7,7 @@ body {
 
 /* 1. Header */
 header {
-  background: linear-gradiant(135deg, #0ea5e9, #8b5cf6);
+  background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
   color: #fff;
   padding: 1rem 2rem;
   display: flex;
