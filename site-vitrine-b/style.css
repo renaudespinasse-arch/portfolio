@@ -56,13 +56,15 @@ header a {
   display: flex;
   gap: 1rem;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
 .cards .card {
   padding: 20px;
   border-radius: 10px;
-  flex: 1;
+  flex: 1 1 250px;
+  max-width: 300px;
   text-align: center;
   color: #fff !important;
   font-weight: bold;
