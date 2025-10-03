@@ -91,3 +91,29 @@ footer {
   color: #fff;
   padding: 10px;
 }
+
+/* Responsive - Mobile */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header ul {
+    justify-content: center;
+  }
+
+  .hero {
+    padding: 60px 10px; /* moins d’espace pour petits écrans */
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards .card {
+    max-width: 90%; /* cartes plus larges mais en colonne */
+  }
+}
+
