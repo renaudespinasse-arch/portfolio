@@ -92,31 +92,6 @@ footer {
   padding: 10px;
 }
 
-/* Responsive - Mobile */
-@media (max-width: 600px) {
-  header {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  header ul {
-    justify-content: center;
-  }
-
-  .hero {
-    padding: 60px 10px; /* moins d’espace pour petits écrans */
-  }
-
-  .cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cards .card {
-    max-width: 90%; /* cartes plus larges mais en colonne */
-  }
-}
-
 /* ===== Palier tablette ===== */
 @media (max-width: 900px) {
   /* Header : un peu plus compact */
@@ -146,5 +121,52 @@ footer {
     padding: 80px 16px;
   }
 }
+
+/* ===== Palier mobile ===== */
+@media (max-width: 600px) {
+  /* Header en colonne + centrage du contenu */
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    padding: 0.75rem 0.75rem;
+  }
+
+  header ul {
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  /* Hero plus compact sur mobile */
+  .hero {
+    padding: 48px 12px;
+  }
+  .hero .btn {
+    white-space: nowrap; /* évite que le texte du bouton casse */
+  }
+
+  /* Cartes : une seule colonne large */
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  /* Contact plus compact */
+  .contact {
+    padding: 28px 12px;
+  }
+
+  /* Footer : rien à faire de spécial, juste s’assurer du centrage */
+  footer {
+    padding: 12px;
+    text-align: center;
+  }
+}
+
 
 
