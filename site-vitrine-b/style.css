@@ -117,3 +117,34 @@ footer {
   }
 }
 
+/* ===== Palier tablette ===== */
+@media (max-width: 900px) {
+  /* Header : un peu plus compact */
+  header {
+    padding: 0.75rem 1rem;
+  }
+
+  /* Menu autorisé à passer sur deux lignes et centré si besoin */
+  header ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Cartes : favorise 2 par ligne */
+  .cards .card {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+
+  /* Section services : un peu moins de marge */
+  .services {
+    padding: 30px 16px;
+  }
+
+  /* Hero : réduit légèrement le padding pour éviter de “manger” l’écran */
+  .hero {
+    padding: 80px 16px;
+  }
+}
+
+
